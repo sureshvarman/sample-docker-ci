@@ -4,7 +4,7 @@ describe('Sample CI Process', () =>
 {
     it('Should Without error', (done) =>
     {
-        var value = app.findSqrt(10);
+        var value = app.findSqrt(9);
         var expected = 3;
 
         if (value == expected)

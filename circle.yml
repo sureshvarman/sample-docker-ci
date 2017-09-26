@@ -2,4 +2,4 @@
 #ovverride current test command
 test:
   override:
-      - echo "Ok"
+      - npm run test
