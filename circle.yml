@@ -1,0 +1,5 @@
+
+#ovverride current test command
+test:
+  override:
+      - 'OK'
